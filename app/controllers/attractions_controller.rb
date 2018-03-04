@@ -8,6 +8,15 @@ class AttractionsController < ApplicationController
     @arttraction=Attraction.create(attraction_params)
   end
 
+  def show
+  end
+
+  def edit
+  end
+
+  def update
+  end
+
 
   private
 
