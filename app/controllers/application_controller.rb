@@ -6,4 +6,12 @@ class ApplicationController < ActionController::Base
   def index
   end
 
+  def require_logged_in
+   redirect_to '/'  unless current_user
+  end
+
+  def current_user
+   session[:user_id]
+  end
+
 end
