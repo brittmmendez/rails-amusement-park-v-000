@@ -5,7 +5,7 @@ class RidesController < ApplicationController
   end
 
   def create
-    
+
   end
 
 end
