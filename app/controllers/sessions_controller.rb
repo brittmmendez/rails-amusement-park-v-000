@@ -1,6 +1,7 @@
 class SessionsController < ApplicationController
 
   def new
+<<<<<<< HEAD
     @user=User.new
   end
 
@@ -12,6 +13,8 @@ class SessionsController < ApplicationController
       else
         redirect_to login_path
       end
+=======
+>>>>>>> 05d078b8339d6a535cec4342fadcd6eb49a9f7bd
   end
 
   def destroy
