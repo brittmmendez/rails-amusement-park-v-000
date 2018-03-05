@@ -13,7 +13,7 @@ class Ride < ActiveRecord::Base
         update_tickets
         update_nausea
         update_happiness
-        "all done!"
+        "Thanks for riding the #{self.attraction.name}!"
       end
   end
 
